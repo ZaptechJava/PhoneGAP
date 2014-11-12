@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+function Aboutus()
+    {
+        window.location = "aboutus.html";
+    }
+
+function StoreInfo()
+    {
+        window.location = "storeinfo.html";
+    }
+
+function Location()
+    {
+        window.location = "location.html";
+    }
+
+function Help()
+    {
+        window.location = "help.html";
+    }
+
+function FAQs()
+    {
+        window.location = "FAQs.html";
+    }
+function MakeNewPayment()
+    {
+
+=======
 function Contactus()
     {
         window.location = "Contactus.html";
@@ -20,14 +49,19 @@ function SocialMedia()
     }
 function MakeNewPayment()
     {
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
         window.location = "MakeNewPayment.html"
     }
 function QuickPayment()
     {
         window.location = "QuickPayment.html"
+<<<<<<< HEAD
+    }
+=======
     }
 function OrderHistory()
     {
         window.location = "OrderHistory.html"
     }
- 
+    
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
