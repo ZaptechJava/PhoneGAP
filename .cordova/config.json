@@ -1,7 +1,11 @@
 {
     "lib": {
         "www": {
+<<<<<<< HEAD
             "id": "com.example",
+=======
+            "id": "com.sliding.menu",
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
             "version": "3.6.0",
             "uri": "https://github.com/phonegap/phonegap-app-hello-world/archive/3.6.0.tar.gz"
         }

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>BancoMoneyTransfer</name>
+=======
+	<name>slidingmenu</name>
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
 	<comment></comment>
 	<projects>
 	</projects>

@@ -5,13 +5,19 @@
     <title>Make New Payment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<<<<<<< HEAD
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
     <!-- <script type="text/javascript" src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script> -->
+=======
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
 </head>
 <body>
 <div data-url="panel-responsive-page1" data-role="page" class="jqm-demos ui-responsive-panel" id="panel-responsive-page1" data-title="Panel responsive page">
     <div data-role="header">
+<<<<<<< HEAD
         <h1>Make New Payment</h1>
         <a href="#nav-panel" data-icon="bars" class="ui-btn-right" data-iconpos="notext">Menu</a>
         <!--<a href="#add-form" data-icon="gear" data-iconpos="notext">Add</a> -->
@@ -20,7 +26,7 @@
     <div role="main" class="ui-content jqm-content jqm-fullwidth">
         
         <div data-demo-html="#panel-responsive-page1"></div><!--/demo-html -->
-        <form>
+        <form id="makePayment">
             
             <select>
                 <option selected value="0">Select Recipient</option>
@@ -30,8 +36,11 @@
             </select>
             <br />
 
-            <input type="number" name="amount" id="amount" min="100" placeholder="Enter Amount" />
+            <input type="number" name="amount" id="amount" min="100" placeholder="Enter Amount" required/>
             <br />
+
+            <input type="number" name="account" id="account" pattern="\10d" title="Must be 10 Digit" placeholder="Enter Account Number" required />
+            <br />		
 
             <select>
                 <option selected value="0">Third Party Service</option>
@@ -45,7 +54,7 @@
             <label for="conform">Please read the filled detail and conform the checkbox. </label>
             <br>
 
-            <input type="submit" value="Submit" />
+            <input type="submit" data-theme="b" onclick="onCheck()" value="Submit" />
 
         </form>
 
@@ -58,6 +67,24 @@
                 <li><a href="#panel-responsive-page2" onclick="Location()">Location</a></li>
                 <li><a href="#panel-responsive-page2" onclick="Help()">Help</a></li>
                 <li><a href="#panel-responsive-page2" onclick="FAQs()">FAQs</a></li>
+=======
+        <h1>Help</h1>
+        <a href="#nav-panel" data-icon="bars" class="ui-btn-right" data-iconpos="notext">Menu</a>
+        <a href="../" data-rel="back" data-ajax="false" class="ui-btn-left" data-icon="arrow-l">Back</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <h1>New Payment</h1>
+        <p>New Payment Form here..</p>
+        <br>
+    </div><!-- /content -->
+    <div data-role="panel" data-position="right" data-display="reveal" data-theme="b" id="nav-panel">
+        <ul data-role="listview">
+                <li><a href="#panel-responsive-page2" onclick="Location()">Location Map</a></li>
+                <li><a href="#panel-responsive-page2" onClick="Contactus()">Contact Us</a></li>
+                <li><a href="#panel-responsive-page2" onclick="AboutStore()">About the Store</a></li>   
+                <li><a href="#panel-responsive-page2" onclick="TermsOfUse()">Terms of Use</a></li>
+                <li><a href="#panel-responsive-page2" onclick="SocialMedia()">Social Media</a></li>
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
         </ul>
     </div>
 </div>
@@ -65,4 +92,25 @@
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/pageRouting.js"></script>
 </body>
+<<<<<<< HEAD
+    
+    <script>
+        function onCheck(){
+            var checked = document.getElementById("conform").checked;
+            if(checked == true){
+                alert("Thank You");
+                window.location="home.html"
+                //var frm = document.getElementById("makePayment");
+                //frm.submit();
+            }
+            else{
+                alert("not checked");
+            }
+        }
+    </script>
+
+
+
+=======
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
 </html>

@@ -1,0 +1,7 @@
+# view AndroidManifest.xml #generated:6
+<<<<<<< HEAD
+-keep class com.example.BancoMoneyTransfer { <init>(...); }
+=======
+-keep class com.sliding.menu.slidingmenu { <init>(...); }
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
+

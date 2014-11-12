@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/hiten/Documents/BancoMoneyTransfer/platforms/android/ant-build/classes.dex : \
 /home/hiten/Documents/BancoMoneyTransfer/platforms/android/ant-build/classes/com/example/R.class \
 /home/hiten/Documents/BancoMoneyTransfer/platforms/android/ant-build/classes/com/example/R$xml.class \
@@ -7,7 +8,7 @@
 /home/hiten/Documents/BancoMoneyTransfer/platforms/android/ant-build/classes/com/example/R$string.class \
 /home/hiten/Documents/BancoMoneyTransfer/platforms/android/ant-build/classes/com/example/R$drawable.class \
 /home/hiten/Documents/BancoMoneyTransfer/platforms/android/ant-build/dexedLibs/classes-2b218e09f49c9c512e1fac8024aa4ce3.jar \
-
+=======
 /home/anuj/PHONEGAP/Project/platforms/android/ant-build/classes.dex : \
 /home/anuj/PHONEGAP/Project/platforms/android/ant-build/classes/com/sliding/menu/R$attr.class \
 /home/anuj/PHONEGAP/Project/platforms/android/ant-build/classes/com/sliding/menu/BuildConfig.class \
@@ -17,4 +18,4 @@
 /home/anuj/PHONEGAP/Project/platforms/android/ant-build/classes/com/sliding/menu/R$string.class \
 /home/anuj/PHONEGAP/Project/platforms/android/ant-build/classes/com/sliding/menu/R$drawable.class \
 /home/anuj/PHONEGAP/Project/platforms/android/ant-build/dexedLibs/classes-62e13483adfae86fb18e4af387a095ff.jar \
-
+>>>>>>> 399b22f0b82322a835e169d0f393023df8451ad1
