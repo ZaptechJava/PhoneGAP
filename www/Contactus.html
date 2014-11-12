@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Contact us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-url="panel-responsive-page1" data-role="page" class="jqm-demos ui-responsive-panel" id="panel-responsive-page1" data-title="Panel responsive page">
+    <div data-role="header">
+        <h1>Contact us</h1>
+        <a href="#nav-panel" data-icon="bars" class="ui-btn-right" data-iconpos="notext">Menu</a>
+        <a href="../" data-rel="back" data-ajax="false" class="ui-btn-left" data-icon="arrow-l">Back</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <h1>Contact us</h1>
+        <p>Test data here..</p>
+        <br>
+    </div><!-- /content -->
+    <div data-role="panel" data-position="right" data-display="reveal" data-theme="b" id="nav-panel">
+        <ul data-role="listview">
+                <li><a href="#panel-responsive-page2" onclick="Location()">Location Map</a></li>
+                <li><a href="#panel-responsive-page2" onClick="Contactus()">Contact Us</a></li>
+                <li><a href="#panel-responsive-page2" onclick="AboutStore()">About the Store</a></li>   
+                <li><a href="#panel-responsive-page2" onclick="TermsOfUse()">Terms of Use</a></li>
+                <li><a href="#panel-responsive-page2" onclick="SocialMedia()">Social Media</a></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/pageRouting.js"></script>
+</body>
+</html>
