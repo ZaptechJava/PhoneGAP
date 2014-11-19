@@ -5,6 +5,7 @@
     <title>Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
 </head>
@@ -13,7 +14,7 @@
     <div data-role="header">
         <h1>Home Page</h1>
         <a href="#nav-panel" data-icon="bars ui-alt-icon" class="ui-btn-right" data-iconpos="notext">Menu</a>
-        <a href="../" data-rel="back" data-ajax="false" class="ui-btn-left" data-icon="ui-btn ui-icon-power ui-alt-icon">Log Out</a>
+        <a href="index.html"  data-ajax="false" class="ui-btn-left" data-icon="ui-btn ui-icon-power ui-alt-icon" data-iconpos="notext">Log Out</a>
     </div><!-- /header -->
 
     <div role="main" class="ui-content jqm-content jqm-fullwidth">
@@ -27,13 +28,16 @@
         <br> 
         <input type="Button" data-theme="b" value="Order History" onclick="OrderHistory()" />      
     </div><!-- /content -->
-    <div data-role="panel" data-position="right" data-display="reveal" data-theme="b" id="nav-panel">
+    <div data-role="footer"> 
+        <h5>Copyright &copy <a href="http://www.zaptechsolutions.com">Zaptech Solutions</a></h5>
+    </div>
+   <div data-role="panel" data-position="right" data-display="reveal" data-theme="b" id="nav-panel">
         <ul data-role="listview">
-                <li><a href="#panel-responsive-page2" onclick="Location()">Location Map</a></li>
-                <li><a href="#panel-responsive-page2" onClick="Contactus()">Contact Us</a></li>
-                <li><a href="#panel-responsive-page2" onclick="AboutStore()">About the Store</a></li>   
-                <li><a href="#panel-responsive-page2" onclick="TermsOfUse()">Terms of Use</a></li>
-                <li><a href="#panel-responsive-page2" onclick="SocialMedia()">Social Media</a></li>
+                <li><a href="#" onclick="Location()">Location Map</a></li>
+                <li><a href="#" onClick="Contactus()">Contact Us</a></li>
+                <li><a href="#" onclick="AboutStore()">About the Store</a></li>   
+                <li><a href="#" onclick="TermsOfUse()">Terms of Use</a></li>
+                <li><a href="#" onclick="SocialMedia()">Social Media</a></li>
         </ul>
     </div>
 </div>

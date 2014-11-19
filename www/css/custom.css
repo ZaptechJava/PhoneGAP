@@ -1,0 +1,24 @@
+.tdorange{
+
+	color:#e47911;
+	float:left;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tdnormal{
+
+}
+
+.zapimgdiv{
+
+	float:left;
+	margin:10px;
+	height:150px; 
+	width:120px;
+}
+
+#googleMap{
+	width:400px;
+	height:300px;
+}
