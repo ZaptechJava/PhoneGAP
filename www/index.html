@@ -6,32 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>    
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>   
 </head>
-<body>
-<div data-url="panel-responsive-page1" data-role="page" class="jqm-demos ui-responsive-panel" id="panel-responsive-page1" data-title="Panel responsive page">
+<body onload="onDocLoad()">
+<div data-role="page" class="jqm-demos ui-responsive-panel" data-title="Login page">
     <div data-role="header">
         <h1>Login</h1>
         <a href="#nav-panel" data-icon="bars ui-alt-icon" class="ui-btn-right" data-iconpos="notext">Menu</a>
     </div><!-- /header -->
     <div role="main" class="ui-content jqm-content jqm-fullwidth">
-        <!-- <div data-demo-html="#panel-responsive-page1"></div><!--/demo-html --> 
-            <form class="userform">
+            <form id="userform" method="post">
             <h2 align="center">Login</h2>
             <input name="name" id="UserName" placeholder="User Name" data-clear-btn="true" data-mini="true" type="text"/>
             <br>
             <input name="password" id="password" placeholder="Password" data-clear-btn="true" autocomplete="off" data-mini="true" type="password"/>
             <br/>
-            <input type="Button" data-theme="b" value="Submit Button" onclick="login()" />
+            <input type="button" data-theme="b" value="Submit" onclick="login()"/>
         </form>
     </div>
     <div data-role="panel" data-position="right" data-display="reveal" data-theme="b" id="nav-panel">
         <ul data-role="listview">
-                <li><a href="#panel-responsive-page2" onclick="Location()">Location Map</a></li>
-                <li><a href="#panel-responsive-page2" onClick="Contactus()">Contact Us</a></li>
-                <li><a href="#panel-responsive-page2" onclick="AboutStore()">About the Store</a></li>   
-                <li><a href="#panel-responsive-page2" onclick="TermsOfUse()">Terms of Use</a></li>
-                <li><a href="#panel-responsive-page2" onclick="SocialMedia()">Social Media</a></li>
+                <li><a href="#" onclick="Location()">Location Map</a></li>
+                <li><a href="#" onClick="Contactus()">Contact Us</a></li>
+                <li><a href="#" onclick="AboutStore()">About the Store</a></li>   
+                <li><a href="#" onclick="TermsOfUse()">Terms of Use</a></li>
+                <li><a href="#" onclick="SocialMedia()">Social Media</a></li>
         </ul>
     </div>
 </div>
