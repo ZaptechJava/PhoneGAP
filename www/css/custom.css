@@ -10,6 +10,7 @@
 
 }
 
+<<<<<<< HEAD
 #googleMap{
 	width:400px;
 	height:300px;
@@ -43,4 +44,17 @@
     max-width: 200px; /*resolution of the img*/
     width: 100%; /* shrink to 80% if lower than 350px */
     /*margin: 1em auto;*/  /* add space between top and bottom edge of container */
+=======
+.zapimgdiv{
+
+	float:left;
+	margin:10px;
+	height:150px; 
+	width:120px;
+}
+
+#googleMap{
+	width:400px;
+	height:300px;
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
 }

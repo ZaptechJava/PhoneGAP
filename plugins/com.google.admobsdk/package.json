@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "version": "6.12.2",
+=======
+    "version": "6.12.1",
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
     "name": "com.google.admobsdk",
     "cordova_name": "AdMob SDK for Android, iOS and WP8",
     "description": "AdMob SDK for Android, iOS and WP8 only, as dependency of other plugins",

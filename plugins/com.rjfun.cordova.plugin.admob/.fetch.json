@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"source":{"type":"local","path":"/home/anuj/.plugman/cache/com.rjfun.cordova.plugin.admob/2.1.7/package"}}
+=======
+{"source":{"type":"git","url":"https://github.com/floatinghotpot/cordova-plugin-admob.git","subdir":"."}}
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83

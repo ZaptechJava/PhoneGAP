@@ -37,7 +37,6 @@ var app = {
         //app.receivedEvent('deviceready');
         var pushNotification = window.plugins.pushNotification;
         pushNotification.register(app.successHandler, app.errorHandler,{"senderID":"790882189927","ecb":"app.onNotificationGCM"});
-
     },
     // Update DOM on a Received Event
     /*receivedEvent: function(id) {
@@ -139,10 +138,6 @@ function login(){
     //alert(name +" "+password);
 };
 
-function AlertHandler(){
-
-}
-
 //===========================To handle submit other than submit button.=================================
 $('#userform').submit(function(){
     //$('#userform')[0].reset();
@@ -152,15 +147,16 @@ $('#userform').submit(function(){
     return false;
 });
 
-//========================================Ad Mob code here.=============================================
-    
+//=====================================Ad Mob code here.=================================================
 function onDocLoad() {
-        if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
+    if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
             document.addEventListener('deviceready', initApp, false);
-        } else {
-            initApp();
-        }
     }
+    else{
+        initApp();
+    }
+}
+    
 function initApp(){
     initAd();
     // display the banner at startup
@@ -233,4 +229,3 @@ function destroyBannerView(){
         window.plugins.AdMob.destroyBannerView();
 }
 //==========================================================================    
-

@@ -27,8 +27,8 @@
     google.maps.event.addDomListener(window, 'load', LocationGoogleMap);
     </script>
 </head>
-<body onload="app.initialize()">
 
+<body onload="app.initialize()">
 <div data-role="page" class="jqm-demos ui-responsive-panel" data-title="location page">
     <div data-role="header">
         <h1>Location</h1>
@@ -38,6 +38,7 @@
     <div role="main" class="ui-content jqm-content jqm-fullwidth">
         <h1>Our Location</h1>
 	    <div id="googleMap" align="center"></div>
+
         <a href="#popupDialog" id="exitDailog" data-rel="popup" data-position-to="window" style='display:none;'>Exit APP</a>
         <br>
     </div><!-- /content -->

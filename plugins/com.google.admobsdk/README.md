@@ -15,7 +15,11 @@ Or, add it by hand:
 # Version #
 
 * Google Play Services, r19 (depends on plugin: com.google.playservices)
+<<<<<<< HEAD
 * Google AdMob SDK for iOS, v6.12.2
+=======
+* Google AdMob SDK for iOS, v6.12.0
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
 * Google AdMob SDK for WP8, v6.5.13
 
 # ProGuard #

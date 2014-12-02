@@ -15,6 +15,7 @@
                         {
                             "xml": "<activity android:configChanges=\"keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize\" android:name=\"com.google.android.gms.ads.AdActivity\" android:theme=\"@android:style/Theme.Translucent\" />",
                             "count": 1
+<<<<<<< HEAD
                         },
                         {
                             "xml": "<activity android:exported=\"true\" android:name=\"com.plugin.gcm.PushHandlerActivity\" />",
@@ -27,6 +28,8 @@
                         {
                             "xml": "<service android:name=\"com.plugin.gcm.GCMIntentService\" />",
                             "count": 1
+=======
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
                         }
                     ],
                     "/*": [
@@ -38,6 +41,7 @@
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
                             "count": 1
                         }
+<<<<<<< HEAD
                     ],
                     "/manifest": [
                         {
@@ -68,6 +72,8 @@
                             "xml": "<uses-permission android:name=\"com.bancomoney.transfer.permission.C2D_MESSAGE\" />",
                             "count": 1
                         }
+=======
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
                     ]
                 }
             },
@@ -77,10 +83,13 @@
                         {
                             "xml": "<feature name=\"AdMob\"><param name=\"android-package\" value=\"com.rjfun.cordova.plugin.AdMob\" /></feature>",
                             "count": 1
+<<<<<<< HEAD
                         },
                         {
                             "xml": "<feature name=\"PushPlugin\"><param name=\"android-package\" value=\"com.plugin.gcm.PushPlugin\" /></feature>",
                             "count": 1
+=======
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
                         }
                     ]
                 }
@@ -89,18 +98,29 @@
     },
     "installed_plugins": {
         "com.rjfun.cordova.plugin.admob": {
+<<<<<<< HEAD
             "PACKAGE_NAME": "com.bancomoney.transfer"
         },
         "com.phonegap.plugins.PushPlugin": {
             "PACKAGE_NAME": "com.bancomoney.transfer"
+=======
+            "PACKAGE_NAME": "Banco.Money.Transfer"
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
         }
     },
     "dependent_plugins": {
         "com.google.playservices": {
+<<<<<<< HEAD
             "PACKAGE_NAME": "com.bancomoney.transfer"
         },
         "com.google.admobsdk": {
             "PACKAGE_NAME": "com.bancomoney.transfer"
+=======
+            "PACKAGE_NAME": "Banco.Money.Transfer"
+        },
+        "com.google.admobsdk": {
+            "PACKAGE_NAME": "Banco.Money.Transfer"
+>>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
         }
     }
 }
