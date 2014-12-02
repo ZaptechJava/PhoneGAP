@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Contact us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body onload="onDocLoad()" onbeforeunload="window.plugins.AdMob.destroyBannerView();">
+<div data-role="page" class="jqm-demos ui-responsive-panel" data-title="Contact us page">
+    <div data-role="header">
+        <h1>Contact us</h1>
+        <a href="#nav-panel" data-icon="bars ui-alt-icon" class="ui-btn-right" data-iconpos="notext">Menu</a>
+        <a href="../" data-rel="back" data-ajax="false" class="ui-btn-left" data-icon="arrow-l ui-alt-icon" data-iconpos="notext">Back</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <h3 class="ui-bar ui-bar-a ui-corner-all">Contact us</h3>
+      <div class="ui-body ui-body-a ui-corner-all">
+        <div class="ZapCenterImg">
+            <img src='img/zap.png'/>
+        </div>
+        <div>
+            <table data-role="table" id="movie-table" data-mode="reflow" class="ui-responsive">
+              <thead>
+                <tr></tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="tdorange">Address :</td>
+                <td class="tdnormal">14 Sigma Corporate House,<br>
+                    Bodakdev,Ahmedabad - 380 054,<br>
+                    Gujarat,India</td>
+              <tr>
+                <td class="tdorange">Phone :</td>
+                <td class="tdnormal">+91 - 79 - 40027248</td>        
+              </tr>
+              <tr>      
+                <td class="tdorange">USA :</td>
+                <td class="tdnormal">+1 646 367 (9756)</td>
+              </tr>
+              <tr>
+                <td class="tdorange">UK :</td>
+                <td class="tdnormal">+44 20 3051 6821</td>
+              </tr>
+
+              <tr>
+                <td class="tdorange">Email :</td>
+                <td class="tdnormal">info@zaptechsolutions.com</td>
+              </tr>
+              </tbody>
+            </table>
+        </div>
+        <a href="#popupDialog" id="exitDailog" data-rel="popup" data-position-to="window" style='display:none;'>Exit APP</a>
+      </div>  
+        <br>
+    </div><!-- /content -->
+    <div data-role="footer"> 
+        <h5>Copyright &copy <a href="http://www.zaptechsolutions.com">Zaptech Solutions</a></h5>
+    </div>
+   <div data-role="panel" data-position="right" data-display="reveal" data-theme="b" id="nav-panel">
+        <ul data-role="listview">
+                <li><a href="#" onclick="Location()">Location Map</a></li>
+                <li><a href="#" onClick="Contactus()">Contact Us</a></li>
+                <li><a href="#" onclick="AboutStore()">About the Store</a></li>   
+                <li><a href="#" onclick="TermsOfUse()">Terms of Use</a></li>
+                <li><a href="#" onclick="SocialMedia()">Social Media</a></li>
+        </ul>
+    </div>
+    <div data-role="popup" id="popupDialog" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+    <div data-role="header" data-theme="a">
+    <h1>Confirmation</h1>
+    </div>
+    <div role="main" class="ui-content">
+        <h3 class="ui-title">Are you sure you want to Exit?</h3>
+
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <button class="ui-btn ui-corner-all ui-shadow ui-btn-b" onclick="onExit()">Yes</button>
+            </div>
+            <div class="ui-block-b">
+                <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-b" data-rel="back">No</a>
+            </div>
+        </div><!-- /grid-a -->
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/pageRouting.js"></script>
+<script type="text/javascript">
+    app.initialize();
+</script>
+</body>
+</html>

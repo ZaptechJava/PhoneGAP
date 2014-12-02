@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Social Media Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body onload="onDocLoad()" onbeforeunload="window.plugins.AdMob.destroyBannerView();">
+<div data-role="page" class="jqm-demos ui-responsive-panel" data-title="Social Media page">
+    <div data-role="header">
+        <h1>Social Media</h1>
+        <a href="#nav-panel" data-icon="bars ui-alt-icon" class="ui-btn-right" data-iconpos="notext">Menu</a>
+        <a href="../" data-rel="back" data-ajax="false" class="ui-btn-left" data-icon="arrow-l ui-alt-icon" data-iconpos="notext">Back</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <h1>Social Media Info</h1>
+        <a href="https://twitter.com/zaptechsolutio1">
+        <img id='twitterimg' src='img/Twitter.png' height="50" width="50" style="float:left;margin-left:10px;margin-right:10px;"/></a>
+         <a href="https://twitter.com/zaptechsolutio1" data-theme="b" data-role="button">Follow us on Twitter</a> 
+        <br><br>
+        <a href="https://www.facebook.com/zaptechsolutions">
+        <img id='fbimg' src='img/facebook.png' height="50" width="50" style="float:left;margin:10px;"/></a>
+         <a href="https://www.facebook.com/zaptechsolutions"  data-theme="b" data-role="button">Follow us on Facebook</a> 
+        <br><br>
+        <a href="https://plus.google.com/communities/116509285097867612572">
+        <img id='googleimg' src='img/GooglePlus.png' height="50" width="50" style="float:left;margin:10px;"/></a>
+         <a href="https://plus.google.com/communities/116509285097867612572"  data-theme="b" data-role="button">Follow us on Google+</a> 
+         <br><br><hr><br>
+         <a href="www.zaptechsolutions.com/">
+        <img id='zapimg' src='img/zaptech.png' height="50" width="50" style="float:left;margin:10px;"/></a>
+         <a href="www.zaptechsolutions.com/"  data-theme="b" data-role="button">Visit Our Website</a>  
+         <a href="#popupDialog" id="exitDailog" data-rel="popup" data-position-to="window" style='display:none;'>Exit APP</a> 
+    </div><!-- /content -->
+    <div data-role="panel" data-position="right" data-display="reveal" data-theme="b" id="nav-panel">
+        <ul data-role="listview">
+                <li><a href="#panel-responsive-page2" onclick="Location()">Location Map</a></li>
+                <li><a href="#panel-responsive-page2" onClick="Contactus()">Contact Us</a></li>
+                <li><a href="#panel-responsive-page2" onclick="AboutStore()">About the Store</a></li>   
+                <li><a href="#panel-responsive-page2" onclick="TermsOfUse()">Terms of Use</a></li>
+                <li><a href="#panel-responsive-page2" onclick="SocialMedia()">Social Media</a></li>
+        </ul>
+    </div>
+    <div data-role="popup" id="popupDialog" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+    <div data-role="header" data-theme="a">
+    <h1>Confirmation</h1>
+    </div>
+    <div role="main" class="ui-content">
+        <h3 class="ui-title">Are you sure you want to Exit?</h3>
+
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <button class="ui-btn ui-corner-all ui-shadow ui-btn-b" onclick="onExit()">Yes</button>
+            </div>
+            <div class="ui-block-b">
+                <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-b" data-rel="back">No</a>
+            </div>
+        </div><!-- /grid-a -->
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/pageRouting.js"></script>
+<script type="text/javascript">
+    app.initialize();
+</script>
+</body>
+</html>
