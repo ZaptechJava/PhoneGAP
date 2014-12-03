@@ -1,35 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<<<<<<< HEAD
 <widget id="com.bancomoney.transfer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>BancoMoney</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
-=======
-<widget id="Banco.Money.Transfer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Banco Money Transfer</name>
-    <description>
         This is Banco money transfer application which help your transfer your money through this app easily.
->>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-<<<<<<< HEAD
     <content src="index.html" />
-=======
     <preference name="SplashScreen" value="test" />
     <preference name="SplashScreenDelay" value="3610" />
-
->>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="3.5.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
-<<<<<<< HEAD
-    <preference name="fullscreen" value="true" />
-=======
     <preference name="fullscreen" value="false" />
->>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
@@ -59,7 +44,6 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-<<<<<<< HEAD
     <icon src="www/res/icon.png" />
     <!--<platform name="android">
               <icon src="www/res/android/ldpi.png" density="ldpi" />
@@ -68,16 +52,6 @@
               <icon src="www/res/android/xhdpi.png" density="xhdpi" />
     </platform>
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
-=======
-    <icon src="res/icon.png" />
-    <platform name="android">
-              <icon src="res/android/ldpi.png" density="ldpi" />
-              <icon src="res/android/mdpi.png" density="mdpi" />
-              <icon src="res/android/hdpi.png" density="hdpi" />
-              <icon src="res/android/xhdpi.png" density="xhdpi" />
-    </platform>
-    <!-- <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
->>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
     <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/icon/android/icon-96-xhdpi.png" />
@@ -89,14 +63,8 @@
     <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
     <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
     <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
-<<<<<<< HEAD
     <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" /> 
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
-=======
-    <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
-     -->
->>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
@@ -106,10 +74,6 @@
     <gap:splash gap:platform="ios" height="1136" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
     <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
-<<<<<<< HEAD
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />-->
-=======
-    <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
->>>>>>> bd01e6c50873c65248ced8b77cc3fb1bcbedbb83
     <access origin="*" />
 </widget>
