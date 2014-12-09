@@ -1,6 +1,6 @@
-PhoneGAP 3.6.3
+BMT APP
 =================
-BMT App
+PhoneGAP 3.6.3
 =================
 
 Step to run app:-
