@@ -3,7 +3,7 @@ BMT APP
 PhoneGAP 3.6.3
 =================
 
-Step to run app:-
+Steps to run app:-
 
 step 1 :-
 
@@ -15,9 +15,9 @@ step 2:-
 
 Now add the following plugin :-
 
-$ cordova plugin add https://github.com/phonegap-build/PushPlugin.git
+$ phonegap plugin add https://github.com/phonegap-build/PushPlugin.git
 
-$ cordova plugin add com.rjfun.cordova.plugin.admob
+$ phonegap plugin add com.rjfun.cordova.plugin.admob
 
 step 3:-
 
